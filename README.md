@@ -30,7 +30,7 @@ php application.php
 This test verifies that all screenshots and viewports are of the same size. Will output any screenshots that do not
 match.
 
-Output is stored in out/pixel-6-dimensions. Remove all files in dir to reset test.
+Output is stored in `output/pixel-6-dimensions`. Remove all files in dir to reset test.
 
 ```
  php application.php test:pixel-6-dimensions
