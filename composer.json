@@ -1,0 +1,18 @@
+{
+    "name": "bonemeijer/lt-reproduction",
+    "type": "project",
+    "require": {
+        "php": "^7.4",
+        "symfony/dotenv": "^5.4",
+        "symfony/console": "^5.4",
+        "php-webdriver/webdriver": "^1.12"
+    },
+    "require-dev": {
+        "bonemeijer/smartdump": "^0.2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reproduction\\": "src/"
+        }
+    }
+}
